@@ -13,7 +13,7 @@ deploy:
   provider: elasticbeanstalk # We will deploy code to Elastic Beanstalk
   region: us-west-2 # Specify your region
   app: "my-first-app" # Copy it from Elastic Beanstalk dashboard
-  env: "MyfirstappEnv" # Copy it from Elastic Beanstalk dashboard
+  env: "Myfirstapp-env" # Copy it from Elastic Beanstalk dashboard
 
   # Access Key ID and Secret Access Key as configured in IAM of AWS.
   access_key_id: $AWS_ACCESS_KEY
