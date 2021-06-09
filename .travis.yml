@@ -1,4 +1,4 @@
-language: node_js
+
 # Tell travis we need docker
 services:
   - docker
